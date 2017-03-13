@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_single_player"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="guilherme.goodhire.SinglePlayer"
+    android:background="@drawable/background2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewMissedLetters"
+        android:textSize="30sp"
+        android:layout_weight="1"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="140dp"
+        android:textColor="@android:color/black"
+        android:maxLength="7" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/holo_orange_light"
+        android:weightSum="1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="10dp"
+        android:id="@+id/layoutAddLetter">
+
+        <TextView
+            android:text="@string/textViewInsertLetter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewInsertLetter"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textColorLink="@android:color/holo_orange_light"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp" />
+
+        <EditText
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editTextFieldLetter"
+            android:textColorLink="@android:color/holo_orange_dark"
+            android:maxLength="1"
+            android:layout_marginLeft="20dp" />
+
+        <Button
+            android:text="@string/buttonCheckLetter"
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonCheckLetter"
+            android:textColorLink="@android:color/holo_orange_light"
+            android:textSize="14sp"
+            android:onClick="introduceLetter"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="225dp"
+        android:layout_width="match_parent"
+        android:id="@+id/layoutAttempts"
+        android:background="@android:color/holo_orange_light">
+
+        <TextView
+            android:text="@string/textViewMissedAttempts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewMissedAttempts"
+            android:textSize="14sp"
+            android:textColor="#000000"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/bad_hire_steps1"
+        android:id="@+id/imageViewGameOver"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="5dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/good_hire_steps1"
+        android:id="@+id/imageViewSuccess"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="5dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/layoutLetters"
+        android:layout_above="@+id/layoutAddLetter"
+        android:layout_centerHorizontal="true">
+
+
+    </LinearLayout>
+
+</RelativeLayout>

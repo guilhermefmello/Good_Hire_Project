@@ -1,0 +1,49 @@
+body {
+  font-family: Arial;
+  color: black;
+  margin:justify;
+}
+
+h1 {
+  font-family: Arial;
+  color: #4AA146;
+  font-size: 1.25em;
+  text-align:center;
+}
+
+h2 {
+  font-family: Arial;
+  color: #F2932F;
+  font-size: 1.25em;
+  text-align:center;
+}
+
+h3 {
+  font-family: Arial;
+  color: black;
+  font-size: 0.85em;
+  text-align:center;
+}
+
+
+p {
+	font-family:Verdana;
+	color:black;
+	font-size:0.85em;
+	text-align:justify;
+}
+
+
+
+a:active {
+  color: blue;
+}
+
+
+address {
+	font-family:Arial;
+	color:black;
+	font-size:0.62em;
+	font-style:italic;
+	text-align:center;
+}

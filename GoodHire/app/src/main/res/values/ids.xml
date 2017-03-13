@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="textViewLetter1" type="id">_</item>
+    <item name="imageViewSuccess" type="id">imageViewSuccess</item>
+    <item name="imageViewGameOver" type="id">imageViewGameOver</item>
+</resources>

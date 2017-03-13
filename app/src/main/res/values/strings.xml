@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Good Hire</string>
+    <string name="textGame">Game</string>
+    <string name="buttonSinglePlayer">Single Player</string>
+    <string name="buttonMultiplayer">Multiplayer</string>
+    <string name="buttonScore">Score</string>
+    <string name="buttonAbout">About</string>
+    <string name="textViewInsertLetter">INSERT LETTER:</string>
+    <string name="buttonCheckLetter">CHECK LETTER</string>
+    <string name="textViewLetter2">_</string>
+    <string name="textViewLetter3">_</string>
+    <string name="textViewLetter4">_</string>
+    <string name="textViewLetter5">_</string>
+    <string name="textViewMissedAttempts">MISSED ATTEMPTS</string>
+    <string name="textViewLetter1">_</string>
+    <string name="textViewPoints">Points</string>
+    <string name="textViewLetter6">_</string>
+    <string name="textViewLetter7">_</string>
+    <string name="textViewGameOverWord">GAME OVER</string>
+    <string name="textViewPointsGameOverWord">POINTS</string>
+    <string name="textViewPointsWordGameOver">Points</string>
+    <string name="textViewPointsWordSuccess">Points</string>
+    <string name="textViewSuccessWord">SUCCESS</string>
+
+    <string name="myLink"><a href="https://ie.linkedin.com/in/guilhermeferreiramello">Click to See Your Best Hire</a></string>
+    <string name="buttonSaveScore">Save Score</string>
+    <string name="editTextFieldName" />
+    <string name="buttonPlayAgain">PLAY AGAIN</string>
+
+
+</resources>
