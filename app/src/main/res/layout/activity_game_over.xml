@@ -61,7 +61,6 @@
         android:orientation="horizontal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/linearLayout"
         android:layout_centerHorizontal="true"
         android:id="@+id/layoutLetters"
         android:layout_marginTop="300dp">>
