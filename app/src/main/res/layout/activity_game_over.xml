@@ -64,7 +64,7 @@
         android:layout_centerHorizontal="true"
         android:id="@+id/layoutLetters"
         android:layout_marginTop="300dp">>
-
+        
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

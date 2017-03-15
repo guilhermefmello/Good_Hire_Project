@@ -6,6 +6,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
+
+    /*
+    *Good Hire Game
+    *Author: Guilherme Ferreira Mello
+    *Releasing: 03/03/2017
+    */
+
 public class ScoresActivity extends AppCompatActivity {
 
 

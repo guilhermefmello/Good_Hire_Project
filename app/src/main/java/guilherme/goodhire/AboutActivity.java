@@ -9,6 +9,13 @@ import android.view.View;
 import android.webkit.WebView;
 import android.widget.TextView;
 
+
+    /*
+    *Good Hire Game
+    *Author: Guilherme Ferreira Mello
+    *Releasing: 03/03/2017
+    */
+
 public class AboutActivity extends AppCompatActivity {
 
 
@@ -40,6 +47,8 @@ public class AboutActivity extends AppCompatActivity {
 
 
     }
+
+
 
 
     //creating a method to pause (or stops) the intro song when a button is pressed or an activity is changed

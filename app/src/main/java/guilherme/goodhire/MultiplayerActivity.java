@@ -8,6 +8,13 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+    /*
+    *Good Hire Game
+    *Author: Guilherme Ferreira Mello
+    *Releasing: 03/03/2017
+    */
+
+
 public class MultiplayerActivity extends AppCompatActivity {
 
     //creating a MediaPlayer class variable

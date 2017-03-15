@@ -12,6 +12,12 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+    /*
+    *Good Hire Game
+    *Author: Guilherme Ferreira Mello
+    *Releasing: 03/03/2017
+    */
+
 public class GameMultiActivity extends AppCompatActivity {
 
     String myWord;

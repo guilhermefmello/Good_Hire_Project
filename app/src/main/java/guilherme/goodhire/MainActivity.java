@@ -5,6 +5,13 @@ import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+    /*
+    *Good Hire Game
+    *Author: Guilherme Ferreira Mello
+    *Releasing: 03/03/2017
+    */
+
+
 public class MainActivity extends AppCompatActivity {
 
     private static int SPLASH_TIME_OUT = 4000;

@@ -7,6 +7,14 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+
+    /*
+    *Good Hire Game
+    *Author: Guilherme Ferreira Mello
+    *Releasing: 03/03/2017
+    */
+
+
 public class HomeActivity extends AppCompatActivity {
 
     //creating a MediaPlayer class variable
