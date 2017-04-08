@@ -7,15 +7,15 @@
     <string name="buttonAbout">About</string>
     <string name="textViewInsertLetter">INSERT LETTER:</string>
     <string name="buttonCheckLetter">CHECK LETTER</string>
-    <string name="textViewLetter2">_</string>
-    <string name="textViewLetter3">_</string>
-    <string name="textViewLetter4">_</string>
-    <string name="textViewLetter5">_</string>
+    <string name="textViewLetter2" translatable="false">_</string>
+    <string name="textViewLetter3" translatable="false">_</string>
+    <string name="textViewLetter4" translatable="false">_</string>
+    <string name="textViewLetter5" translatable="false">_</string>
     <string name="textViewMissedAttempts">MISSED ATTEMPTS</string>
-    <string name="textViewLetter1">_</string>
+    <string name="textViewLetter1" translatable="false">_</string>
     <string name="textViewPoints">Points</string>
-    <string name="textViewLetter6">_</string>
-    <string name="textViewLetter7">_</string>
+    <string name="textViewLetter6" translatable="false">_</string>
+    <string name="textViewLetter7" translatable="false">_</string>
     <string name="textViewGameOverWord">GAME OVER</string>
     <string name="textViewPointsGameOverWord">POINTS</string>
     <string name="textViewPointsWordGameOver">Points</string>
@@ -24,8 +24,10 @@
 
     <string name="myLink"><a href="https://ie.linkedin.com/in/guilhermeferreiramello">Click to See Your Best Hire</a></string>
     <string name="buttonSaveScore">Save Score</string>
-    <string name="editTextFieldName" />
+    <string name="editTextFieldName">Insert Your Name</string>
     <string name="buttonPlayAgain">PLAY AGAIN</string>
+    <string name="Play_Button">PLAY</string>
+    <string name="Insert_Word">Insert Word</string>
 
 
 </resources>

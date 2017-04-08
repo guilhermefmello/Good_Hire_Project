@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Boa Contratação</string>
+    <string name="Insert_Word">Insira Palavra</string>
+    <string name="Play_Button">JOGAR</string>
+    <string name="buttonAbout">Sobre</string>
+    <string name="buttonCheckLetter">VERIFICAR LETRA</string>
+    <string name="buttonMultiplayer">2 Jogadores</string>
+    <string name="buttonPlayAgain">JOGAR NOVAMENTE</string>
+    <string name="buttonSaveScore">Salvar Pontuação</string>
+    <string name="buttonScore">Pontuação</string>
+    <string name="buttonSinglePlayer">1 Jogador</string>
+    <string name="editTextFieldName">Insira Seu Nome</string>
+    <string name="myLink"><a href="https://ie.linkedin.com/in/guilhermeferreiramello">Clique Para Ver Sua Melhor Contratação</a></string>
+    <string name="textGame">Jogo</string>
+    <string name="textViewGameOverWord">FIM DE JOGO</string>
+    <string name="textViewInsertLetter">INSIRA LETRA:</string>
+    <string name="textViewMissedAttempts">TENTATIVAS PERDIDAS</string>
+    <string name="textViewPoints">Pontos</string>
+    <string name="textViewPointsGameOverWord">PONTOS</string>
+    <string name="textViewPointsWordGameOver">Pontos</string>
+    <string name="textViewPointsWordSuccess">Pontos</string>
+    <string name="textViewSuccessWord">SUCESSO</string>
+</resources>
